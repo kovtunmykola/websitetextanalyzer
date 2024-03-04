@@ -1,0 +1,27 @@
+{
+  "name": "websitetextanalyzer",
+  "version": "1.0.0",
+  "description": "A simple npm package for analyzing the text content of a website.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kovtunmykola/websitetextanalyzer.git"
+  },
+  "keywords": [
+    "website",
+    "text",
+    "analyzer",
+    "analysis",
+    "web scraping"
+  ],
+  "author": "kovtunmykola",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.12",
+    "anytextanalyzer": "^1.0.0"
+  }
+}
